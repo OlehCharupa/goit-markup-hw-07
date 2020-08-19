@@ -21,7 +21,7 @@
 
   &:hover,
   &:focus {
-    border-color: var(--$accent-color);
+    border-color: $accent-color;
   }
 }
 
@@ -31,6 +31,6 @@
 
   .link-customer:hover &,
   .link-customer:focus & {
-    fill: var(--$accent-color);
+    fill: $accent-color;
   }
 }

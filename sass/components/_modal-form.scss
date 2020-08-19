@@ -36,7 +36,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--$title-text-color);
+    color: $title-text-color;
     margin-top: 0px;
     margin-bottom: 15px;
   }
@@ -67,7 +67,7 @@
 
   &:hover,
   &:focus {
-    fill: var(--$accent-color);
+    fill: $accent-color;
   }
 }
 
@@ -102,7 +102,7 @@
 
   &:focus {
     outline: none;
-    border: 1px solid #2196f3;
+    border: 1px solid $accent-color;
   }
 }
 .modal-texteria-text {
@@ -119,7 +119,7 @@
 
   &:focus {
     outline: none;
-    border: 1px solid #2196f3;
+    border: 1px solid $accent-color;
   }
 }
 .modal-checkbox {
@@ -155,7 +155,7 @@
 
 .checkbox-link {
   margin-left: 5px;
-  color: var(--$accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }
 
@@ -173,8 +173,8 @@
   display: flex;
   letter-spacing: 0.06em;
 
-  color: var(--$title-text-white);
-  background-color: var(--$accent-color);
+  color: $title-text-white;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
@@ -186,9 +186,9 @@
   bottom: 11px;
   width: 18px;
   height: 18px;
-  fill: var(--$title-text-color);
+  fill: $title-text-color;
 
   .modal-input-text:focus ~ & {
-    fill: var(--$accent-color);
+    fill: $accent-color;
   }
 }

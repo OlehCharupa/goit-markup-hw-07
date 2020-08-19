@@ -2,7 +2,7 @@
   width: 672px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--$title-text-white);
+  color: $title-text-white;
 
   .hero-title {
     max-width: 100%;
@@ -18,10 +18,10 @@
 .btn {
   border-radius: 4px;
   border: 0;
-  background: var(--$accent-color);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  color: var(--$title-text-white);
+  color: $title-text-white;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

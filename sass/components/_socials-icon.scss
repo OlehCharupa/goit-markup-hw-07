@@ -19,7 +19,7 @@
   }
   &:hover,
   &:focus {
-    background-color: var(--$accent-color);
+    background-color: $accent-color;
   }
 }
 
@@ -32,6 +32,6 @@
 
   .socials-link .link:hover &,
   .socials-link .link:focus & {
-    fill: var(--$title-text-white);
+    fill: $title-text-white;
   }
 }

@@ -23,7 +23,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   .card-content {
-    background: #ffffff;
+    background: $title-text-white;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -35,7 +35,7 @@
     .title-card {
       margin-top: 0px;
       margin-bottom: 4px;
-      color: var(--$title-text-color);
+      color: $title-text-white;
       font-weight: 700;
       font-size: 18px;
       line-height: 2;
@@ -43,7 +43,7 @@
     }
     .desc {
       margin: 0;
-      color: var(--$primary-text-color);
+      color: $primary-text-color;
       font-weight: 400;
       font-size: 16px;
       line-height: 1.87;
@@ -55,9 +55,7 @@
   }
 }
 
-.card:hover .card-image .text {
-  transform: translateY(0);
-}
+.card:hover .card-image .text,
 .card:hover .card-image::before {
   transform: translateY(0);
 }
@@ -81,7 +79,7 @@
     padding-right: 24px;
     padding-left: 24px;
 
-    color: var(--$title-text-white);
+    color: $title-text-white;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
