@@ -469,77 +469,76 @@
 
     <!-- ===== МОДАЛЬНОЕ ОКНО ===== -->
     <div class="is-hidden backdrop" data-modal>
-      <form
-        class="modal-open-content js-speaker-form"
-        data-modal-open
-        autocomplete="off"
-      >
+      <div class="modal-open-content">
         <button class="button-close-modal" data-modal-close>
           <svg class="icon-close">
             <use href="./images/sprint.svg#icon-icon-close"></use>
           </svg>
         </button>
         <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-        <div class="modal-form-field">
-          <label class="modal-form-title" for="name">Имя</label>
-          <input
-            type="text"
-            class="modal-input-text"
-            name="user-name"
-            id="name"
-          />
-          <svg class="modal-icon-black">
-            <use href="./images/sprint.svg#icon-person-black"></use>
-          </svg>
-        </div>
-        <div class="modal-form-field">
-          <label class="modal-form-title" for="tel">Телефон</label>
-          <input
-            type="tel"
-            class="modal-input-text"
-            name="user-phone"
-            id="tel"
-          />
-          <svg class="modal-icon-black">
-            <use href="./images/sprint.svg#icon-phone-black"></use>
-          </svg>
-        </div>
-        <div class="modal-form-field">
-          <label class="modal-form-title" for="modal-email">Почта</label>
-          <input
-            type="email"
-            class="modal-input-text"
-            name="user-email"
-            id="modal-email"
-          />
-          <svg class="modal-icon-black">
-            <use href="./images/sprint.svg#icon-email-black"></use>
-          </svg>
-        </div>
-        <div class="modal-form-field">
-          <label class="modal-form-title" for="massage">Комментарий</label>
-          <textarea
-            class="modal-texteria-text"
-            name="user-massage"
-            id="massage"
-            placeholder="Введите текст"
-          ></textarea>
-        </div>
-        <div class="modal-checkbox">
-          <label class="lable">
-            <input class="checkbox" type="checkbox" name="policy" />
-            <span class="checkbox-icon"></span>
-            Соглашаюсь с рассылкой и принимаю
-            <a class="checkbox-link" href="#">Условия договора</a>
-          </label>
-        </div>
-        <button type="submit" class="modal-btn-submit">
-          Отправить
-        </button>
-      </form>
+
+        <form class="js-speaker-form" data-modal-open autocomplete="off">
+          <div class="modal-form-field">
+            <label class="modal-form-title" for="name">Имя</label>
+            <input
+              type="text"
+              class="modal-input-text"
+              name="user-name"
+              id="name"
+            />
+            <svg class="modal-icon-black">
+              <use href="./images/sprint.svg#icon-person-black"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-form-title" for="tel">Телефон</label>
+            <input
+              type="tel"
+              class="modal-input-text"
+              name="user-phone"
+              id="tel"
+            />
+            <svg class="modal-icon-black">
+              <use href="./images/sprint.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-form-title" for="modal-email">Почта</label>
+            <input
+              type="email"
+              class="modal-input-text"
+              name="user-email"
+              id="modal-email"
+            />
+            <svg class="modal-icon-black">
+              <use href="./images/sprint.svg#icon-email-black"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-form-title" for="massage">Комментарий</label>
+            <textarea
+              class="modal-texteria-text"
+              name="user-massage"
+              id="massage"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="modal-checkbox">
+            <label class="lable">
+              <input class="checkbox" type="checkbox" name="policy" />
+              <span class="checkbox-icon"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="checkbox-link" href="#">Условия договора</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-btn-submit">
+            Отправить
+          </button>
+        </form>
+      </div>
     </div>
-    <script src="./modal.js"></script>
+    <script src="./js/modal.js"></script>
     <!-- ===== JS для форм ======= -->
-    <script src="./forn.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
