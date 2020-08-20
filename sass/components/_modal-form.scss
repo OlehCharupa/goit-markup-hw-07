@@ -131,18 +131,19 @@
   position: absolute;
 }
 .lable {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   cursor: pointer;
 }
 .checkbox-icon {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 16px;
   height: 15px;
-  border: 2px solid #2a2a2a;
+  border: 1.5px solid #2a2a2a;
   border-radius: 2px;
   margin-right: 7px;
+  box-sizing: border-box;
 
   .checkbox:checked + & {
     background-color: $accent-color;

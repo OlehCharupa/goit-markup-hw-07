@@ -2,7 +2,7 @@
 @import "./utils/variables";
 @import "./base/common";
 @import "./base/container";
-@import "./components/section";
+@import "./layout/section";
 @import "./components/logo";
 @import "./components/modal-form";
 @import "./components/socials-icon";
@@ -13,5 +13,5 @@
 @import "./layout/team-list";
 @import "./layout/client";
 @import "./layout/footer";
-@import "./layout/filter-menu";
+@import "./components/filter-menu";
 @import "./layout/project-box";
