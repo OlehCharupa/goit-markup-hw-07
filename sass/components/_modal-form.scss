@@ -14,8 +14,7 @@
 .modal-open-content {
   position: absolute;
   max-width: 528px;
-  width: 100%;
-  // height: 581px;
+  // width: 100%;
   padding: 40px;
   left: 50%;
   top: 50%;
@@ -38,7 +37,7 @@
     letter-spacing: 0.03em;
     color: $title-text-color;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 }
 
@@ -59,6 +58,7 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #ffffff;
+  cursor: pointer;
 }
 
 .icon-close {
@@ -85,17 +85,16 @@
 }
 
 .modal-form-title {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
 .modal-input-text {
-  height: 40px;
-  width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 42px;
+  padding-right: 42px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -129,16 +128,16 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
   position: absolute;
 }
 .lable {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .checkbox-icon {
-  display: inline-block;
+  display: flex;
   width: 16px;
   height: 15px;
   border: 2px solid #2a2a2a;
@@ -146,10 +145,8 @@
   margin-right: 7px;
 
   .checkbox:checked + & {
-    background-origin: border-box;
-    background-image: url(../images/iconcheck-ok.svg);
-    background-size: contain;
-    border-color: transparent;
+    background-color: $accent-color;
+    border-color: $accent-color;
   }
 }
 
@@ -172,6 +169,7 @@
 
   display: flex;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: $title-text-white;
   background-color: $accent-color;
